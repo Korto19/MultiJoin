@@ -1,0 +1,50 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=MultiJoin
+name[it]= Join Multiplo
+qgisMinimumVersion=3.4
+description=Join in a new layer n fields taken from other n layer having the same field
+description[it]=Genera un layer temporaneo unendo tutti i campi uguali da n shape o n layer da gpgk 
+version=1.0
+author=Giulio Fattori
+email=giulio.fattori@tin.it
+
+about=This plugin generates a new temporary level with all fields from a source level and further n fields taken from other n levels having the same field
+about[it]=Questo plugin, dati n shape o un gpgk, un campo id comune a tutti ed un campo dati, genera un layer temporaneo con tutti i campi uguali da ogni shape o layer del gpgk 
+
+tracker=https://github.com/Korto19/MultiJoin/issues
+repository=https://github.com/Korto19/MultiJoin
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, vector, merge, join, field, fields
+
+homepage=https://github.com/Korto19/MultiJoin#multijoin
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+#category=vector
+
+# If the plugin can run on QGIS Server.
+server=False
+
